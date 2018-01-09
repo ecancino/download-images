@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "0.17.1",
+    "fs": "0.0.1-security",
+    "mellotron": "0.2.5",
+    "ramda": "0.25.0"
+  },
+  "scripts": {
+    "download": "for run in {1..10}; do yarn start; done",
+    "start": "node screenshots.js"
+  }
+}
